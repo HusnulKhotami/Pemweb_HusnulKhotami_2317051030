@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Web</title>
+    <style>
+        body {
+            background-image: url('coba.jpeg');
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20;
+            padding: 30;
+            height: 100vh; 
+            display: flex;
+            flex-direction: column; 
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            width: 100%; 
+            box-sizing: border-box; 
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .left {
+            padding: 20px;
+            font-size: 15px;
+        }
+        .right {
+            font-size: 10px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        li {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: gray;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.2); 
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            color: rgb(32, 29, 29);
+            width: 430px;
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            background:#a95e13;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size:18px;
+            font-weight: bold;
+            transition: 0.3s;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        .button:hover {
+            background: #5f9600;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="left">
+            <li><a href="index.html">Beranda</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="jdwl.html">Jadwal</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="pp.jpeg" alt="pp"width="150"border-radius="20px">
+        <h5>Perkenalan saya</h5>
+        <h3>Husnul Khotami</h3>
+        <h5>NPM 23170511030</h5>
+        <h5>Jurusan Ilmu Komputer</h5>
+        <h5>Universitas Lampung</h5>
+        <form action="jdwl.html" method="GET">
+            <button class="button">Lihat Jadwal</button>
+        </form>
+    </div>
+</body>
+</html>
