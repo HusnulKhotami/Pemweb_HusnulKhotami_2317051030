@@ -1,8 +1,8 @@
 <?php
     $nama = $_POST['nama'];
-    $usia = $_POST['usia'];
+    $alamat = $_POST['alamat'];
 
     echo "Nama anda adalah: ".$nama;
     echo "<br>";
-    echo "Usia anda adalah: ".$usia;
+    echo "Usia anda adalah: ".$alamat;
 ?>

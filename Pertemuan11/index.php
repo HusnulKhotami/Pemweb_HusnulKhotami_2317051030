@@ -9,6 +9,12 @@
     <form action="tampil.php" method="post">
         <label for="nama"> masukan nama </label>
         <input type="text" name="nama">
+        <label for="usia"> masukan usia </label>
+        <input type="text" name="usia">
+        <label for="alamat"> masukan alamat </label>
+        <input type="text" name="alamat">
+        <label for="npm"> masukan npm</label>
+        <input type="text" name="npm">
         <input type="submit">
     </form>
 </body>
