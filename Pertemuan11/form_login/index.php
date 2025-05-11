@@ -1,21 +1,18 @@
 <?php
 session_start();
 if (isset($_SESSION['user'])) {
-    //Jika sudah login, arahkan pengguna ke halaman dashboard.php
+    //Jika sudah login, mengarahkan langsung ke halaman dashboard.php
     header("Location: dashboard.php");
     exit();
 }
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Login</title>
 <link
-href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap
-.min.css" rel="stylesheet">
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 <div class="container mt-5">
