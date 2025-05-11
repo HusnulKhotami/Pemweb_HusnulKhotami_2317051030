@@ -1,3 +1,13 @@
+<?php
+//session_start();
+// Mengecek apakah variabel session 'user' sudah diset (menandakan pengguna sudah login)
+//if (isset($_SESSION['user'])) {
+    // Jika sudah login, arahkan pengguna ke halaman dashboard.php
+    //header("Location: dashboard.php");
+    // Menghentikan eksekusi script setelah pengalihan
+    //exit();
+//}
+?>
 
 
 <!DOCTYPE html>
