@@ -24,20 +24,15 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" r
 <form method="POST" action="login.php">
 <div class="mb-3">
  
-<label for="username" class="form-
-label">Username</label>
+<label for="username" class="form-label">Username</label>
  
-<input type="text" name="username"
-class="form-control" id="username" required>
+<input type="text" name="username" class="form-control" id="username" required>
 </div>
  
-<div class="mb-3">
+<div class="mb-3"> 
+<label for="password" class="form-label">Password</label>
  
-<label for="password" class="form-
-label">Password</label>
- 
-<input type="password" name="password"
-class="form-control" id="password" required>
+<input type="password" name="password" class="form-control" id="password" required>
 </div>
  
 <button type="submit" class="btn btn-primary
