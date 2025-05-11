@@ -10,6 +10,7 @@ if ($user && password_verify($password, $user['password'])) {
 $_SESSION['user'] = $user['username'];
 header("Location: dashboard.php");
 } else {
-echo "Login gagal. Username atau password salah.";
+header("Location: index.php?error=1");
+exit();
 }
 ?>

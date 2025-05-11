@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,5 +44,12 @@ w-100">Login</button>
 </div>
 </div>
 </div>
+
+<?php if (isset($_GET['error'])): ?>
+<script>
+    alert("Login gagal. Username atau password salah.");
+</script>
+<?php endif; ?>
+
 </body>
 </html>
